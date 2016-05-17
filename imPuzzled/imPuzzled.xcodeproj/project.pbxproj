@@ -305,6 +305,7 @@
 				CCDFA7281CEB7654008D6258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
