@@ -8,9 +8,9 @@
 
 import UIKit
 
-<<<<<<< HEAD
+
 class ViewController: UIViewController{
-=======
+
 struct gameOptions {
     
     var width = 20
@@ -22,7 +22,7 @@ struct gameOptions {
     
 }
 
->>>>>>> slgraff/master
+
 
 class ViewController: UITableViewController,APIDataDelegate {
     
@@ -37,16 +37,16 @@ class ViewController: UITableViewController,APIDataDelegate {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-<<<<<<< HEAD
+
        
         // Do any additional setup after loading the view, typically from a nib.
-=======
+
         
         gameOption = gameOptions()
         
         let url = "polar-savannah-54119.herokuapp.com/capabilities"
         apidata = APIData(request: url, delegate: self)
->>>>>>> slgraff/master
+
     }
     
     
@@ -80,6 +80,8 @@ class ViewController: UITableViewController,APIDataDelegate {
         }
         
     }
-
-    
 }
+}
+
+
+
