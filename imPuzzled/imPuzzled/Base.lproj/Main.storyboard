@@ -6,17 +6,17 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-<<<<<<< HEAD
+
         <!--i'mPuzzled-->
         <scene sceneID="aVd-bd-mvx">
             <objects>
                 <tableViewController title="i'mPuzzled" id="78s-yo-TaI" sceneMemberID="viewController">
-=======
+
         <!--View Controller-->
         <scene sceneID="aVd-bd-mvx">
             <objects>
                 <tableViewController id="78s-yo-TaI" customClass="ViewController" customModule="imPuzzled" customModuleProvider="target" sceneMemberID="viewController">
->>>>>>> slgraff/master
+
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="LwD-gd-eg1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,7 +49,7 @@
                             <outlet property="delegate" destination="78s-yo-TaI" id="pow-Yv-KW9"/>
                         </connections>
                     </tableView>
-<<<<<<< HEAD
+
                     <navigationItem key="navigationItem" title="i'mPuzzled" prompt="Resume game or start new game" id="cGb-Fg-sh5">
                         <barButtonItem key="leftBarButtonItem" title="Credits" id="PaM-ES-CAn">
                             <connections>
@@ -57,10 +57,9 @@
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="New Game" id="5v7-jZ-kF5">
-=======
+
                     <navigationItem key="navigationItem" id="cGb-Fg-sh5">
                         <barButtonItem key="rightBarButtonItem" enabled="NO" title="New Game" id="5v7-jZ-kF5">
->>>>>>> slgraff/master
                             <connections>
                                 <segue destination="TqX-V6-tKi" kind="show" identifier="showNewGame" id="POd-ZD-kQJ"/>
                             </connections>
@@ -74,9 +73,9 @@
             </objects>
             <point key="canvasLocation" x="887" y="271"/>
         </scene>
-<<<<<<< HEAD
+
         <!--i'mPuzzled-->
-=======
+
         <!--New Game View Controller-->
         <scene sceneID="5eJ-U8-hda">
             <objects>
@@ -140,7 +139,7 @@
             <point key="canvasLocation" x="1603" y="216"/>
         </scene>
         <!--Navigation Controller-->
->>>>>>> slgraff/master
+
         <scene sceneID="xuG-lt-Cnf">
             <objects>
                 <navigationController title="i'mPuzzled" automaticallyAdjustsScrollViewInsets="NO" id="dn9-ao-Oi9" sceneMemberID="viewController">
@@ -164,7 +163,7 @@
             </objects>
             <point key="canvasLocation" x="75" y="271"/>
         </scene>
-<<<<<<< HEAD
+
         <!--Credits-->
         <scene sceneID="zDf-s8-TiP">
             <objects>
@@ -191,7 +190,6 @@
             </objects>
             <point key="canvasLocation" x="1369.5" y="517"/>
         </scene>
-=======
->>>>>>> slgraff/master
+
     </scenes>
 </document>
