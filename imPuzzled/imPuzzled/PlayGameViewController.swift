@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PlayGameViewController: UIViewController {
+class PlayGameViewController: UITabBarController {
     
     
     @IBOutlet var recognizer: UIPanGestureRecognizer!
@@ -34,7 +34,7 @@ class PlayGameViewController: UIViewController {
         
         buildLabels()
 
-        
+        self.view.backgroundColor = UIColor.whiteColor()
     }
 
     //
