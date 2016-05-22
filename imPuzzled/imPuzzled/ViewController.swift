@@ -60,10 +60,7 @@ class ViewController: UITableViewController,NSFetchedResultsControllerDelegate,A
                 if let dict = item as? Dictionary<String, AnyObject> {
                     if let name = dict["name"] as? String {
                         gameOption.capabilities += [(name: name, used: false)]
-
-                        dispatch_async(dispatch_get_main_queue(), {
-                            self.newGameButton.enabled = true
-                        })
+                        self.newGameButton.enabled = true
                     }
                 }
             }
@@ -168,7 +165,7 @@ class ViewController: UITableViewController,NSFetchedResultsControllerDelegate,A
         }
         
         else if segue.identifier == "showPlayGame" {
-            let dvc = segue.destinationViewController as! PlayGameViewController
+            let dvc = segue.destinationViewController as! PlayGameTabViewController
             dvc.game = self.currentGame
         }
 
