@@ -28,13 +28,14 @@ class WordsTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 0
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 0
+        
+        //TODO: return number of words in 'words'
     }
 
     /*
@@ -42,7 +43,7 @@ class WordsTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
 
         // Configure the cell...
-
+        //TODO: load words into cells, highlight if already found
         return cell
     }
     */
